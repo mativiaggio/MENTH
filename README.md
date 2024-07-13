@@ -73,7 +73,7 @@ To get started with MENTH, follow these steps:
     ```
 
 ## Project Structure
-
+```bash
 MENTH/
 ├── .github/ # GitHub configuration files and workflows
 ├── config/ # Configuration files and scripts
@@ -98,6 +98,7 @@ MENTH/
 ├── package.json # Node.js dependencies and scripts
 ├── README.md # Project documentation
 └── tailwind.config.js # TailwindCSS configuration
+```
 
 ## Configuration
 
