@@ -76,10 +76,13 @@ To get started with MENTH, follow these steps:
 ```bash
 MENTH/
 ├── .github/ # GitHub configuration files and workflows
+├── src/
 ├── config/ # Configuration files and scripts
 ├── public/ # Static assets
-├── src/
-│ ├── assets/ # Stylesheets, scripts, images
+│ │ ├── css/ # Stylesheets
+│ │ ├── js/ # Scripts
+│ │ ├── images/ # Images
+│ │ ├── favicon.ico
 │ ├── components/ # Handlebars components and partials
 │ ├── controllers/ # Express route controllers
 │ ├── middleware/ # Express middleware
